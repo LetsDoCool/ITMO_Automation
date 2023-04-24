@@ -1,10 +1,23 @@
-a = 5
-b = 123.456
-c = 'строка'
-d = [1, 2, 3, 4, 5]
-e = 19 < 25
+# Задача 1
+a: int = 1
+b: float = 123.124
+c: str = 'string'
+d: list = [1, 2, 3]
+e: bool = 10 < 5
 
-def task_1(a):
-    return ('a=', a, type(a))
 
-print(task_1(a))
+def task_1(a, b, c, d, e):
+    return a, b, c, d, e
+
+
+print(a, ' = ', type(a), ',', b, ' = ', type(b), ',', c, ' = ', type(c),  ',', d , ' = ', type(d), ',', e, ' = ', type(e))
+
+
+# Задача 2
+def task_2(a: list):
+    a = [1, 2, 3, 5, 8, 13, 21]
+    return a
+
+
+print(a)
+
