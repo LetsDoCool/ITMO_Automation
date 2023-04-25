@@ -13,13 +13,13 @@ class Car:
         return 'Автомобиль заглушен'
 
     def car_year(self):
-        return f'{self.year}'
+        return f'Год выпуска автомобиля: {self.year}'
 
     def car_type(self):
-        return f'{self.type}'
+        return f'Тип автомобиля: {self.type}'
 
     def car_color(self):
-        return f'{self.color}'
+        return f'Цвет автомобиля: {self.color}'
 
 
 car = Car('blue', 'sedan', '2019')
