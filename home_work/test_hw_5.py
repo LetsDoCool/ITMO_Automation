@@ -11,6 +11,6 @@ password = driver.find_element(By.CSS_SELECTOR, '#password')
 button = driver.find_element(By.CSS_SELECTOR, '#login-button')
 
 if username is None and password is None and button is None:
-    print('Элемент не найден')
+    print('Элементы не найдены')
 else:
-    print('Элемент найден')
+    print('Элементы найдены')
